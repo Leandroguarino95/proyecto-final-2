@@ -71,6 +71,9 @@
 ul.show{
     top: 65px;
 }
+.carouselExampleFade{
+    z-index: 10;
+}
 
 
 .container{
@@ -183,10 +186,11 @@ ul.show{
         text-align: center;
         transition: all .4s;
         flex-direction: column;
+        z-index: 20;
     }
     .menu_items li {
         margin: 30px 0 0 0;
-        line-height: 30px;
+        line-height: 40px;
     }
     .menu_items li:hover{
         background: none;
