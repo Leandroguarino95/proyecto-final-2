@@ -216,6 +216,7 @@ ul.show{
     .menu_items{
         overflow: scroll;
         height: calc(100% - 65%);
+        z-index: 20;
     }
     
 }
