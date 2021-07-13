@@ -10,10 +10,13 @@
     background-image: url(./img/fondoformulario.jpg);
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
 .form-register {
-    width: 400px;
+    width: 330px;
     background: rgb(107, 107, 107, 1);
     padding: 30px;
     margin: auto;
@@ -23,6 +26,8 @@
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
+    position: relative;
+
   }
   
   .form-register h4 {
