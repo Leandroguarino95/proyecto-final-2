@@ -4,13 +4,17 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  html{
+    height: 100%;
+  }
   
   body{
     
     background-image: url(./img/fondoformulario.jpg);
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
   }
